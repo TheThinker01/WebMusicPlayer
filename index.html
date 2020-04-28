@@ -4,7 +4,38 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div id="container">
+            <div id="audio-img">
+                <img class="cover">
+            </div>  
+            <div id="audio-player">
+                <div id="audio-info">
+                    <span class="artist"></span> - <span class="title"></span>
+                </div>
+                <input type="range" max="0" min="10" value="5" id="volume">
+                <br>
+                <div id="audio-buuttons">
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </div>
+                <div class="clearfix"></div>
+                <div id="tracker">
+                        <div id="progressbar">
+                            <span id="progress"></span>
+                        </div>
+                    
+                    <span id="duration"></span>
+                </div>
+                <div class="clearfix"></div>
+                <ul id="playlist">
+                    <li song="Hasley - Bad At Love.mp3" cover="cover1.jpg" artist="Halsey">Bat At Love.mp3</li>
+                    <li song="Hasley - You should be sad.mp3" cover="cover1.jpg" artist="Halsey">You Should Be sad.mp3</li>
+                </ul>
+            </div>  
+        </div>
         <script src="js/jquery.js"></script>
         <script src="js/main.js"></script>
     </body>
