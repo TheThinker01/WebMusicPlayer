@@ -108,7 +108,7 @@ input#volume::-webkit-slider-thumb{
     margin: 5px;
 }
 
-#playlist li .active{
+#playlist li.active{
     font-weight: bold;
     padding: 3px;
     background: #666;
